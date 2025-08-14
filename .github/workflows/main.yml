@@ -37,8 +37,8 @@ jobs:
       - name: 서비스 실행
         run: |
           docker service create \
-            --name my-fastapi-whoami-app \
-            --publish published=8000,target=8000 \
-            --replicas 3 \
-            my-fastapi-whoami
+              --name my-fastapi-whoami-app \
+              --publish published=8000,target=8000 \
+              --replicas 3 \
+              my-fastapi-whoami
 
