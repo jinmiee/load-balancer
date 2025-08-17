@@ -6,27 +6,6 @@ on:
 
 env:
   USERNAME: jinmiee    
-#변수명=값
-#node1.group1.변수명1=값1
-#node1.group1.변수명2=값2
-#node1.group1.변수명3=값3
-#node1.group2.변수명1=값1
-#node1.group2.변수명2=값2
-#node1.group2.변수명3=값3
-#node1.group3.변수명1=값1
-#node1.group3.변수명2=값2
-#node1.group3.변수명3=값3
-
-#node2.group1.변수명1=값1
-#node2.group1.변수명2=값2
-#node2.group1.변수명3=값3
-#node2.group2.변수명1=값1
-#node2.group2.변수명2=값2
-#node2.group2.변수명3=값3
-#node2.group3.변수명1=값1
-#node2.group3.변수명2=값2
-#node2.group3.변수명3=값3
-
 
 jobs:
   build-docker-image:
