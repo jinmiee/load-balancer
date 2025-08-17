@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  USERNAME: jinmiee    
+  USERNAME: mizzj 
 
 jobs:
   build-docker-image:
